@@ -26,13 +26,13 @@
 
 Loops:
 
-[ ] Factorial - Write a program that calculates the factorial of a number
+[x] Factorial - Write a program that calculates the factorial of a number
 
-[ ] Fibonacci - Write a program that prints the fibonacci series
+[x] Fibonacci - Write a program that prints the fibonacci series
 
-[ ] Odd Number Series - Write a program that prints odd numbers between 1 and N
+[ ] Odd Number Series - Write a program that prints odd numbers between 1 and 2N-1.
 
-[ ] Even Number Series - Write a program that prints even numbers between 1 AND N
+[ ] Even Number Series - Write a program that prints even numbers between 2 AND 2N
 
 [ ] Multiplication Table - Write a program that will PRINT a multiplication table of any number 'm' up until a number 'n'. So, m*1, m*2....m*n.
 
