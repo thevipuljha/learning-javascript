@@ -1,5 +1,5 @@
-let sum=0,i=0;
-for(i=0;i<3;++i)
-    sum = sum+(+process.argv[i+2]);
-
-console.log("Average =",sum/i);
+const firstNumber =  +process.argv[2];
+const secondNumber =  +process.argv[3];
+const thirdNumber =  +process.argv[4];
+const sumOfAll = firstNumber + secondNumber + thirdNumber;
+console.log("Average =",sumOfAll/3);

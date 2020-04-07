@@ -1,3 +1,3 @@
-let cels = +process.argv[2];
-console.log("Celsius =",cels);
-console.log("Fehrenhite =",(cels*1.8)+32);
+const celsius = +process.argv[2];
+console.log("Celsius =", celsius);
+console.log("Fehrenhite =", (celsius * 1.8) + 32);

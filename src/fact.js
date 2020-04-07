@@ -1,5 +1,5 @@
-let num= +process.argv[2],i,fact=1;
-for(i=2;i<=num;i++){
-    fact = fact*i;
+let number = +process.argv[2], fact = 1;
+for (let index = 2; index <= number; index++) {
+    fact *= index;
 }
-console.log(`${num}! = ${fact}`);
+console.log(`${number}! = ${fact}`);
