@@ -1,8 +1,9 @@
-let num= +process.argv[2];
-if (num<1) {
-	console.log("Natural Number Expected");
+let input = +process.argv[2];
+if (input < 0) {
+	for (let count = -2; count >= input; count = count - 2)
+		console.log(count);
 }
-else{
-	for(let i=2;i<=num;i=i+2)
-    	console.log(i);
+else {
+	for (let count = 2; count <= input; count = count + 2)
+		console.log(count);
 }
