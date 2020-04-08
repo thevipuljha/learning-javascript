@@ -1,3 +1,5 @@
+//Print product of all numbers 1 to N.
+//Input syntax "N".
 let number = +process.argv[2];
 let product = 1;
 if (number > 0) {
@@ -8,4 +10,4 @@ if (number > 0) {
 	console.log("Product =", product);
 }
 else
-	console.log("Natural Number expected")
+	console.log("Natural Number expected");
