@@ -1,8 +1,5 @@
-let first = +process.argv[2];
-let last = +process.argv[3];
-if (first < last)
-	console.log("Second input must be smaller");
-else
-	for (let count = first; count >= last; count--)
-		if (count % 2 == 0)
-			console.log(count);
+let number = +process.argv[2];
+for (let count = number; count >= 1; count--) {
+	if (count % 2 == 0)
+		console.log(count);
+}
