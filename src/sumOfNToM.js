@@ -1,10 +1,13 @@
-let first= +process.argv[2];
-let last= +process.argv[3];
-let sum=0;
-if (first>last)
-	console.log("First Number must be smaller");
-else{
-	for(let i=first;i<=last;i++)
-		sum=sum+i;
-	console.log("Sum =",sum);
+function sum(start, end) {
+	let sum = start;
+	for (++start; start <= end; start++)
+		sum += start;
+	return sum;
 }
+
+const first = +process.argv[2];
+const last = +process.argv[3];
+if (first < last)
+	console.log("Sum =", sum(first, last));
+else
+	console.log("Sum =", sum(last, first));
