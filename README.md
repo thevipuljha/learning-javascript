@@ -62,8 +62,8 @@ Loops:
 
 - [x] Print all even numbers between N and 1 backwards - Write a program that prints all even numbers between N and 1, BACKWARDS.
 
-- [ ] Print reverse of a number.
-- [ ] print sum of all digits of a number.
+- [x] Print reverse of a number.
+- [x] print sum of all digits of a number.
 - [ ] write a function to calculate a two variable expresion.
      - 4+5 should return 9.
      - 4*5 should return 20.
