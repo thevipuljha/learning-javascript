@@ -3,5 +3,9 @@
 let first = +process.argv[2];
 let last = +process.argv[3];
 let gap = +process.argv[4];
-for (let count = first; count <= last; count = count + gap)
-	console.log(count);
+if (gap != 0) {
+	for (let count = first; count <= last; count = count + gap)
+		console.log(count);
+}
+else
+	console.log("Invalid Third input");
